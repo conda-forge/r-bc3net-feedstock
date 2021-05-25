@@ -3,7 +3,7 @@ About r-bc3net
 
 Home: https://CRAN.R-project.org/package=bc3net
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bc3net-feedstock/blob/master/LICENSE.txt)
 
