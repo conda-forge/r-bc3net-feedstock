@@ -3,13 +3,11 @@ About r-bc3net
 
 Home: https://CRAN.R-project.org/package=bc3net
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bc3net-feedstock/blob/master/LICENSE.txt)
 
 Summary: Implementation of the BC3NET algorithm for gene regulatory network inference (de Matos Simoes and Frank Emmert-Streib, Bagging Statistical Network Inference from Large-Scale Gene Expression Data, PLoS ONE 7(3): e33624, <doi:10.1371/journal.pone.0033624>).
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-bc3net` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-bc3net` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
