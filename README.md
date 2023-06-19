@@ -1,11 +1,11 @@
-About r-bc3net
-==============
+About r-bc3net-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bc3net-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=bc3net
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bc3net-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implementation of the BC3NET algorithm for gene regulatory network inference (de Matos Simoes and Frank Emmert-Streib, Bagging Statistical Network Inference from Large-Scale Gene Expression Data, PLoS ONE 7(3): e33624, <doi:10.1371/journal.pone.0033624>).
 
